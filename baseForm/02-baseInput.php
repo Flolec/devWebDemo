@@ -1,5 +1,5 @@
 <?php
-// var_dump($_POST); // Débogage supprimé en production
+var_dump($_POST); // Débogage à supprimer en production
 
 $message = '';
 
