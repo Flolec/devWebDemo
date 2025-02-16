@@ -1,0 +1,91 @@
+ /* Style global */
+
+ :root {
+     --main-txt-color: #333;
+     --color-lightGrey: #ccc;
+     --color-bg-lightGrey: #f4f4f4;
+     --color-warning: #d32f2f;
+     --color-success: #388e3c;
+     --color-info: #e0f7fa;
+     --color-infoBold: #00acc1;
+     --corner: 0.25rem;
+ }
+
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 0.75rem;
+     background-color: var(--color-bg-lightGrey);
+     color: var(--main-txt-color);
+ }
+
+ .centrage {
+     max-width: 50rem;
+     margin: 0 auto;
+     padding: 1rem;
+ }
+
+
+ .cardLook {
+     padding: 1rem;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+ .cardForm {
+     max-width: 20rem;
+     margin: 2rem auto;
+ }
+
+ /*********************************************/
+ /* Positionnement et styles des formulaires */
+
+ label {
+     display: block;
+     margin-bottom: 0.5rem;
+     font-weight: bold;
+ }
+
+ input[type="text"] {
+     width: 100%;
+     padding: 0.3rem;
+     margin: 0.5rem 0;
+     border: 1px solid var(--color-lightGrey);
+     border-radius: var(--corner);
+ }
+
+ input[type="submit"] {
+     width: 100%;
+     padding: 0.75rem;
+     margin-top: 0.3rem;
+
+     background-color: #4CAF50;
+     border: none;
+     border-radius: var(--corner);
+     color: #fff;
+     font-size: 0.75rem;
+     cursor: pointer;
+ }
+
+ /*********************************************/
+ /* Style des messages (résultats et erreurs) */
+ .result {
+     padding: 1rem;
+     margin: 1rem auto;
+     max-width: 400px;
+     background-color: var(--color-info);
+     border: 1px solid var(--color-infoBold);
+     border-radius: var(--corner);
+ }
+
+ .erreur {
+     color: var(--color-warning);
+ }
