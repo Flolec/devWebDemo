@@ -7,7 +7,7 @@
     <ul class="containerFlex">
         <li><i class="fa fa-arrow-left"></i> <a href="<?= BASE_URL ?>"> vers la liste des articles</a></li>
     </ul>
-    <form action="new.php" method="POST" class="formAdmin">
+    <form action="new.php" method="post" class="formAdmin">
         <h2>Nouvel article</h2>
 
         <div class="box-alert color-success">
