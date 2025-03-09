@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', '/~e123456/blog-depart');
+const BASE_URL = '/~e123456/blog-depart';
 ?>
 <!DOCTYPE html>
 <html lang="fr">

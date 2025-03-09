@@ -5,9 +5,8 @@
     <h1>Gestion des Articles</h1>
 
     <a href="new.php" class="btn color-theme">Ajouter un article</a>
-    <div class="alert">
-        Message
-    </div>
+    <div class="box-alert color-danger">Erreur</div>
+    <div class="box-alert color-success">Message de confirmation</div>
     <div class="modal">
         <div class="modal-content">
             <h2>Confirmer la suppression</h2>
@@ -33,7 +32,7 @@
                 <td>1</td>
                 <td>Vendée Globe : le Belge Denis Van Weynbergh est arrivé au bout de son rêve</td>
                 <td>
-                    <a href="modifier_article.html" class="btn color-theme">Modifier</a>
+                    <a href="new.php" class="btn color-theme">Modifier</a>
                     <a href="gestion.php" class="btn color-danger">Supprimer</a>
                 </td>
             </tr>

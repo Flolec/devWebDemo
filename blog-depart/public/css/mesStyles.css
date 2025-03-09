@@ -81,7 +81,7 @@ li {
 }
 
 
-.color-sucess {
+.color-success {
 	border: 0.1rem solid rgb(var(--color-succes));
 	color: rgb(var(--color-succes));
 	background-color: rgba(var(--color-succes), 0.2);
